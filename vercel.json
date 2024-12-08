@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "buildCommand": "npm run build",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "env": {
+    "KINDE_SITE_URL": "https://senseflows.fun",
+    "KINDE_POST_LOGIN_REDIRECT_URL": "https://senseflows.fun/dashboard",
+    "KINDE_POST_LOGOUT_REDIRECT_URL": "https://senseflows.fun"
+  }
+}
