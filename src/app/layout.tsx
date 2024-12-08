@@ -8,7 +8,7 @@ import { Footer } from "@/sections/Footer";
 const dmSans = DM_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Saas Landing Page",
+  title: "Senseflows",
   description: "SaaS Landing Page with React, Next.js, TailwindCSS & Framer Motion",
   icons: {
     icon: [
