@@ -62,7 +62,7 @@ export default function PrivacyPolicyPage() {
             <section className="mb-12">
               <h2 className="text-2xl font-bold mb-4">7. Cookie Policy</h2>
               <p className="text-gray-600">
-                We use cookies and similar tracking technologies to enhance your experience on our platform. You can control cookie settings through your browser preferences. Some cookies are essential for the platform's functionality, while others are used for analytics and marketing purposes.
+                We use cookies and similar tracking technologies to enhance your experience on our platform. You can control cookie settings through your browser preferences. Some cookies are essential for the platform&apos;s functionality, while others are used for analytics and marketing purposes.
               </p>
             </section>
 

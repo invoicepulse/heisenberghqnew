@@ -177,7 +177,7 @@ export default function Features() {
                 >
                   <h3 className="text-xl font-semibold mb-2">🚀 Built for scale</h3>
                   <p className="text-[#010D3E]/80">
-                    Whether you're a small team or a large enterprise, our platform grows with you.
+                    Whether you&apos;re a small team or a large enterprise, our platform grows with you.
                   </p>
                 </motion.div>
                 <motion.div
