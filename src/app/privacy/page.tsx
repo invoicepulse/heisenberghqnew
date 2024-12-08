@@ -20,7 +20,7 @@ export default function PrivacyPolicyPage() {
             <section className="mb-12">
               <h2 className="text-2xl font-bold mb-4">1. Introduction</h2>
               <p className="text-gray-600">
-                Welcome to Senseflows ("we," "our," or "us"). We are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our platform at senseflows.fun.
+                Welcome to Senseflows (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;). We are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our platform at senseflows.fun.
               </p>
             </section>
 

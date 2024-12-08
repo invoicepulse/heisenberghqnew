@@ -218,7 +218,7 @@ export default function AnalyticsSolution() {
             
             <div className="relative z-10 text-center">
               <h2 className="text-3xl font-bold tracking-tight bg-gradient-to-br from-black via-[#001E80] to-[#0055FF] text-transparent bg-clip-text">
-                Ready to unlock your data's potential?
+                Ready to unlock your data&apos;s potential?
               </h2>
               <p className="text-[#010D3E]/80 mt-4 text-lg max-w-2xl mx-auto">
                 Join innovative analytics teams who are already achieving outstanding results with our platform.
