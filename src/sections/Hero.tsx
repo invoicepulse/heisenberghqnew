@@ -36,7 +36,7 @@ export const Hero = () => {
               efforts, and celebrate your success.
             </p>
             <div className="flex gap-1 items-center mt-[30px]">
-              <a href="/api/auth/login" className="btn btn-primary">
+              <a href="https://apps.senseflows.fun" className="btn btn-primary">
                 Get for free
               </a>
             </div>

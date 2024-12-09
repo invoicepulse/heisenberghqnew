@@ -221,13 +221,13 @@ export default function ProductSolution() {
                 Ready to transform your product development?
               </h2>
               <p className="text-[#010D3E]/80 mt-4 text-lg max-w-2xl mx-auto">
-                Join innovative product teams who are already achieving outstanding results with our platform.
+                Join thousands of teams who have already revolutionized their product development process
               </p>
               <a 
-                href="/api/auth/login"
-                className="mt-8 bg-black text-white px-6 py-3 rounded-lg font-medium inline-flex items-center justify-center tracking-tight hover:bg-black/80 transition-colors"
+                href="https://apps.senseflows.fun"
+                className="btn btn-primary mt-8 inline-block"
               >
-                Get for free
+                Get Started Now
               </a>
             </div>
           </div>

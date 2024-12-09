@@ -222,16 +222,16 @@ export default function MarketingSolution() {
             
             <div className="relative z-10 text-center">
               <h2 className="text-3xl font-bold tracking-tight bg-gradient-to-br from-black via-[#001E80] to-[#0055FF] text-transparent bg-clip-text">
-                Ready to revolutionize your marketing?
+                Ready to supercharge your marketing efforts?
               </h2>
               <p className="text-[#010D3E]/80 mt-4 text-lg max-w-2xl mx-auto">
-                Join innovative marketing teams who are already achieving outstanding results with our platform.
+                Join thousands of marketers who have transformed their campaigns
               </p>
               <a 
-                href="/api/auth/login"
-                className="mt-8 bg-black text-white px-6 py-3 rounded-lg font-medium inline-flex items-center justify-center tracking-tight hover:bg-black/80 transition-colors"
+                href="https://apps.senseflows.fun"
+                className="btn btn-primary mt-8 inline-block"
               >
-                Get for free
+                Get Started Now
               </a>
             </div>
           </div>

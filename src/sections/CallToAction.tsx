@@ -30,7 +30,7 @@ export const CallToAction = () => {
             transition={{ delay: 0.2 }}
             className="flex gap-2 mt-10 justify-center"
           >
-            <a href="/api/auth/login" className="btn btn-primary">
+            <a href="https://apps.senseflows.fun" className="btn btn-primary">
               Get for free
             </a>
           </motion.div>
