@@ -3,8 +3,14 @@
   publish = ".next"
 
 [build.environment]
-  NEXT_PUBLIC_SITE_URL = "https://senseflows.netlify.app"
+  NEXT_PUBLIC_SITE_URL = "https://senseflows.fun"
   NEXT_TELEMETRY_DISABLED = "1"
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
+
+[[redirects]]
+  from = "http://*"
+  to = "https://:splat"
+  status = 301
+  force = true
