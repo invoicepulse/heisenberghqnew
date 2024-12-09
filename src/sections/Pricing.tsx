@@ -104,7 +104,7 @@ export const Pricing = () => {
                 <span className="tracking-tight font-bold text-black/50">/month</span>
               </div>
               <a
-                href="https://apps.senseflows.fun"
+                href="/auth"
                 className={twMerge("btn btn-primary w-full mt-[30px]", inverse && "bg-white text-black")}
               >
                 {buttonText}

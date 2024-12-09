@@ -10,7 +10,7 @@ export const Header = () => {
     <header className="sticky top-0 backdrop-blur-sm z-20">
       <div className="flex justify-center items-center py-3 bg-black text-white text-sm gap-3">
         <p className="text-white/60 hidden md:block">Streamline your workflow and boost your productvity</p>
-        <a href="https://apps.senseflows.fun" className="inline-flex gap-1 items-center">
+        <a href="/auth" className="inline-flex gap-1 items-center">
           <p>Get started for free</p>
           <ArrowRight className="h-4 w-4 inline-flex justify-center items-center" />
         </a>
@@ -26,9 +26,9 @@ export const Header = () => {
               <Link href="/features">Features</Link>
               <SolutionsDropdown />
               <Link href="/pricing">Pricing</Link>
-              <a href="https://apps.senseflows.fun" className="text-black hover:text-black/80">Login</a>
+              <a href="/auth" className="text-black hover:text-black/80">Login</a>
               <a 
-                href="https://apps.senseflows.fun" 
+                href="/auth" 
                 className="bg-black text-white px-4 py-2 rounded-lg font-medium inline-flex items-center justify-center tracking-tight"
               >
                 Get for free

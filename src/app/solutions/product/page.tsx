@@ -224,7 +224,7 @@ export default function ProductSolution() {
                 Join thousands of teams who have already revolutionized their product development process
               </p>
               <a 
-                href="https://apps.senseflows.fun"
+                href="/auth"
                 className="btn btn-primary mt-8 inline-block"
               >
                 Get Started Now

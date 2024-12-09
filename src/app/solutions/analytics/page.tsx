@@ -224,7 +224,7 @@ export default function AnalyticsSolution() {
                 Join thousands of teams who have transformed their analytics capabilities
               </p>
               <a 
-                href="https://apps.senseflows.fun"
+                href="/auth"
                 className="btn btn-primary mt-8 inline-block"
               >
                 Get Started Now

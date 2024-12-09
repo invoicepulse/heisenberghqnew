@@ -228,7 +228,7 @@ export default function MarketingSolution() {
                 Join thousands of marketers who have transformed their campaigns
               </p>
               <a 
-                href="https://apps.senseflows.fun"
+                href="/auth"
                 className="btn btn-primary mt-8 inline-block"
               >
                 Get Started Now
