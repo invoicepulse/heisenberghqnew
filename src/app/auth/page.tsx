@@ -66,6 +66,7 @@ export default function AuthPage() {
   // Set random quote
   useEffect(() => {
     setQuote(quotes[Math.floor(Math.random() * quotes.length)])
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -151,7 +152,7 @@ export default function AuthPage() {
           className="mb-6 text-center"
         >
           <div className="bg-black/50 backdrop-blur-sm p-3 rounded-lg shadow-lg inline-block">
-            <p className="text-cyan-400 font-bold text-lg italic">"{quote}"</p>
+            <p className="text-cyan-400 font-bold text-lg italic">&quot;{quote}&quot;</p>
           </div>
         </motion.div>
 
@@ -337,7 +338,7 @@ export default function AuthPage() {
                 </div>
               </motion.div>
               <p className="text-xs text-gray-500 italic">
-                "{isLogin ? 'I am the one who logs in.' : 'Apply yourself, and join us.'}"
+                &quot;{isLogin ? 'I am the one who logs in.' : 'Apply yourself, and join us.'}&quot;
               </p>
             </div>
           </div>

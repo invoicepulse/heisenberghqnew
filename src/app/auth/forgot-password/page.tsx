@@ -106,7 +106,7 @@ export default function ForgotPasswordPage() {
               >
                 <div className="text-center mb-6">
                   <p className="text-gray-600">
-                    Enter your email and we'll send you instructions to reset your secret formula.
+                    Enter your email and we&apos;ll send you instructions to reset your secret formula.
                   </p>
                 </div>
                 
@@ -203,7 +203,7 @@ export default function ForgotPasswordPage() {
                 </div>
               </motion.div>
               <p className="text-xs text-gray-500 italic">
-                "Memory is like chemistry - sometimes we need a catalyst."
+                &quot;Memory is like chemistry - sometimes we need a catalyst.&quot;
               </p>
             </div>
           </div>
