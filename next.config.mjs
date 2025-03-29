@@ -3,6 +3,9 @@ const nextConfig = {
   images: {
     domains: ['res.cloudinary.com'],
   },
+  // Force full page refreshes instead of client-side navigation
+  trailingSlash: true, // This adds a trailing slash which helps force full page refreshes
+  skipTrailingSlashRedirect: true, // Prevents redirection without the trailing slash
   webpack(config) {
     // Grab the existing rule that handles SVG imports
     const fileLoaderRule = config.module.rules.find((rule) =>

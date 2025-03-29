@@ -90,6 +90,10 @@ export default function Features() {
   const y1 = useTransform(scrollYProgress, [0, 1], [-100, 100]);
   const y2 = useTransform(scrollYProgress, [0, 1], [100, -100]);
 
+  // New rotating animation values
+  const rotation = useTransform(scrollYProgress, [0, 1], [0, 360]);
+  const scale = useTransform(scrollYProgress, [0, 0.5, 1], [1, 1.2, 1]);
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-[#FFFFFF] via-[#E2E8FF] to-[#D2DCFF] relative overflow-hidden">
       {/* Decorative Background Elements */}
@@ -205,6 +209,113 @@ export default function Features() {
               </div>
             </div>
           </div>
+        </motion.div>
+
+        {/* Breaking Bad Inspired Section */}
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 1.2 }}
+          viewport={{ once: true }}
+          className="max-w-5xl mx-auto mt-40 mb-20"
+        >
+          <div className="text-center mb-16">
+            <motion.h2
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.1 }}
+              viewport={{ once: true }}
+              className="text-4xl md:text-5xl font-bold tracking-tighter"
+            >
+              <span className="bg-gradient-to-br from-black via-[#001E80] to-[#0055FF] text-transparent bg-clip-text">
+                The Chemistry of Productivity
+              </span>
+            </motion.h2>
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.2 }}
+              viewport={{ once: true }}
+              className="text-xl text-[#010D3E]/70 mt-4 max-w-3xl mx-auto"
+            >
+              Breaking the barriers of traditional project management
+            </motion.p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <motion.div
+              style={{ 
+                rotate: rotation,
+                scale: scale
+              }}
+              className="flex justify-center"
+            >
+              <div className="relative w-64 h-64 md:w-80 md:h-80">
+                <div className="absolute inset-0 rounded-full bg-blue-500/20 backdrop-blur-lg"></div>
+                <div className="absolute inset-4 rounded-full bg-purple-500/30 backdrop-blur-lg"></div>
+                <div className="absolute inset-8 rounded-full bg-indigo-500/40 backdrop-blur-lg flex items-center justify-center">
+                  <span className="text-7xl md:text-8xl font-bold text-white">Hb</span>
+                </div>
+              </div>
+            </motion.div>
+
+            <div className="space-y-8">
+              <motion.div
+                initial={{ opacity: 0, x: 50 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ delay: 0.2 }}
+                viewport={{ once: true }}
+                className="p-6 backdrop-blur-sm bg-white/30 rounded-xl border border-white/20 shadow-lg"
+              >
+                <h3 className="text-2xl font-bold mb-2 text-[#001E80]">I Am The One Who Manages</h3>
+                <p className="text-[#010D3E]/80">
+                  Our task management system ensures nothing falls through the cracks. You're not in the project management business, you're in the empire business.
+                </p>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, x: 50 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ delay: 0.3 }}
+                viewport={{ once: true }}
+                className="p-6 backdrop-blur-sm bg-white/30 rounded-xl border border-white/20 shadow-lg"
+              >
+                <h3 className="text-2xl font-bold mb-2 text-[#001E80]">99.1% Pure Efficiency</h3>
+                <p className="text-[#010D3E]/80">
+                  We've refined the formula for project success. Our platform is engineered to eliminate impurities in your workflow and crystallize your productivity.
+                </p>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, x: 50 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ delay: 0.4 }}
+                viewport={{ once: true }}
+                className="p-6 backdrop-blur-sm bg-white/30 rounded-xl border border-white/20 shadow-lg"
+              >
+                <h3 className="text-2xl font-bold mb-2 text-[#001E80]">Say My Name</h3>
+                <p className="text-[#010D3E]/80">
+                  When your clients ask who's responsible for such impeccable project delivery, you know exactly what to say. You're Heisenberg. You're the danger.
+                </p>
+              </motion.div>
+            </div>
+          </div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.5 }}
+            viewport={{ once: true }}
+            className="mt-20 text-center"
+          >
+            <a 
+              href="/auth" 
+              className="inline-block py-4 px-8 bg-black text-white font-bold rounded-xl shadow-lg hover:shadow-xl transition-all hover:-translate-y-1"
+            >
+              Let's Cook... Projects!
+            </a>
+            <p className="mt-3 text-[#010D3E]/60 italic">No RVs or hazmat suits required.</p>
+          </motion.div>
         </motion.div>
       </div>
     </div>

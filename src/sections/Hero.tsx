@@ -26,18 +26,17 @@ export const Hero = () => {
         <div className="md:flex items-center">
           <div className="md:w-[478px]">
             <div className="text-sm inline-flex border border-[#222]/10 px-3 py-1 rounded-lg tracking-tight">
-              Just Launched
+              Just Launched - 99.1% Pure
             </div>
             <h1 className="text-5xl md:text-7xl font-bold tracking-tighter bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text mt-6">
-              Simple monday.com alternative
+              Say My Name!
             </h1>
             <p className="text-xl text-[#010D3E] tracking-tight mt-6">
-              Celebrate the joy of accomplishment with an app designed to track your progress, motivate your
-              efforts, and celebrate your success.
+              The empire business starts with great organization. Track your progress, cook up success, and be the one who knocks on opportunity's door.
             </p>
             <div className="flex gap-1 items-center mt-[30px]">
               <a href="/auth" className="btn btn-primary">
-                Get for free
+                Let's Cook... Projects!
               </a>
             </div>
           </div>

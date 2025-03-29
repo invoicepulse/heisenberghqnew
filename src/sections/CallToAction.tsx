@@ -12,7 +12,7 @@ export const CallToAction = () => {
             animate={{ opacity: 1, y: 0 }}
             className="section-title"
           >
-            Sign up for free today
+            Join the Empire Business Today
           </motion.h2>
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
@@ -20,8 +20,8 @@ export const CallToAction = () => {
             transition={{ delay: 0.1 }}
             className="section-des mt-5"
           >
-            Celebrate the joy of accomplishment with an app designed to track your progress and motivate your
-            efforts.
+            Apply the Heisenberg formula to your projects. Our blue-sky thinking will transform your 
+            ordinary workflow into something extraordinary. No half measures.
           </motion.p>
 
           <motion.div 
@@ -31,7 +31,7 @@ export const CallToAction = () => {
             className="flex gap-2 mt-10 justify-center"
           >
             <a href="/auth" className="btn btn-primary">
-              Get for free
+              Let's Cook... Projects!
             </a>
           </motion.div>
         </div>

@@ -8,59 +8,59 @@ import tubeImage from "@/assets/tube.png";
 // Campaign types
 const campaignTypes = [
   {
-    title: "Social Media",
-    icon: "🚀",
-    description: "Create and schedule engaging social media content across multiple platforms with AI-powered optimization.",
-    features: ["Content Calendar", "Analytics Dashboard", "Automated Posting"],
-    gradient: "from-purple-500/20 to-pink-500/20",
+    title: "Territory Expansion",
+    icon: "🌟",
+    description: "Take over new markets with engaging social media content across multiple platforms, optimized with scientific precision.",
+    features: ["Distribution Schedule", "Territory Analytics", "Automated Deployment"],
+    gradient: "from-yellow-500/20 to-amber-500/20",
   },
   {
-    title: "Email Marketing",
+    title: "Customer Loyalty Program",
     icon: "📧",
-    description: "Design and automate personalized email campaigns with advanced segmentation and A/B testing.",
-    features: ["Template Builder", "Audience Segmentation", "Campaign Analytics"],
-    gradient: "from-pink-500/20 to-rose-500/20",
+    description: "Design loyalty schemes that keep your clients coming back for more, no matter what the competition offers.",
+    features: ["Personalized Outreach", "Client Segmentation", "Results Tracking"],
+    gradient: "from-amber-500/20 to-orange-500/20",
   },
   {
-    title: "Paid Advertising",
+    title: "Market Domination",
     icon: "📈",
-    description: "Manage and optimize your ad campaigns across multiple platforms with real-time performance tracking.",
-    features: ["Budget Management", "Ad Performance", "Audience Targeting"],
-    gradient: "from-rose-500/20 to-orange-500/20",
+    description: "Eliminate competition and become the one who knocks in your industry with targeted advertising.",
+    features: ["Resource Allocation", "Performance Measurement", "Target Acquisition"],
+    gradient: "from-orange-500/20 to-red-500/20",
   },
 ];
 
 const features = [
   {
-    title: "Campaign Management",
-    description: "Plan, execute, and track your marketing campaigns from a single dashboard.",
-    icon: "📊",
-    gradient: "from-purple-500/20 to-pink-500/20",
+    title: "Empire Management",
+    description: "Plan, execute, and track your marketing empire from a single dashboard.",
+    icon: "🏙️",
+    gradient: "from-yellow-500/20 to-amber-500/20",
   },
   {
-    title: "Content Calendar",
-    description: "Schedule and organize your content across all marketing channels.",
+    title: "Distribution Schedule",
+    description: "Time your product releases perfectly across all channels for maximum impact.",
     icon: "📅",
-    gradient: "from-pink-500/20 to-rose-500/20",
+    gradient: "from-amber-500/20 to-orange-500/20",
   },
   {
-    title: "Analytics Dashboard",
-    description: "Track performance metrics and generate insights in real-time.",
-    icon: "📈",
-    gradient: "from-rose-500/20 to-orange-500/20",
+    title: "Territory Intelligence",
+    description: "Track performance metrics and generate insights about your market territory.",
+    icon: "🔍",
+    gradient: "from-orange-500/20 to-red-500/20",
   },
   {
-    title: "Automation Tools",
-    description: "Streamline your marketing workflows with intelligent automation.",
-    icon: "⚡",
-    gradient: "from-orange-500/20 to-amber-500/20",
+    title: "Gus Fring's Automation",
+    description: "As methodical and precise as the chicken man himself. Streamline your workflows.",
+    icon: "🍗",
+    gradient: "from-red-500/20 to-rose-500/20",
   },
 ];
 
 const metrics = [
-  { value: "3x", label: "Higher Engagement Rates" },
-  { value: "65%", label: "Time Saved on Campaign Planning" },
-  { value: "45%", label: "Improved ROI" },
+  { value: "99.1%", label: "Pure Marketing Effectiveness" },
+  { value: "85%", label: "Less Time Spent on Territory Management" },
+  { value: "65%", label: "Increased Market Domination" },
 ];
 
 // Campaign Type Card Component
@@ -124,15 +124,15 @@ export default function MarketingSolution() {
   const y2 = useTransform(scrollYProgress, [0, 1], [100, -100]);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-[#FFFFFF] via-[#FFE8F7] to-[#FFD6EF] relative overflow-hidden">
+    <div className="min-h-screen bg-gradient-to-br from-[#FFFFFF] via-[#FFFACD] to-[#FFD700] relative overflow-hidden">
       {/* Decorative Background Elements */}
       <motion.div
         style={{ y: y1 }}
-        className="absolute top-40 -left-64 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl"
+        className="absolute top-40 -left-64 w-96 h-96 bg-yellow-500/20 rounded-full blur-3xl"
       />
       <motion.div
         style={{ y: y2 }}
-        className="absolute bottom-40 -right-64 w-96 h-96 bg-pink-500/10 rounded-full blur-3xl"
+        className="absolute bottom-40 -right-64 w-96 h-96 bg-amber-500/20 rounded-full blur-3xl"
       />
 
       <div className="container py-24 relative">
@@ -143,7 +143,7 @@ export default function MarketingSolution() {
             animate={{ opacity: 1, y: 0 }}
             className="tag inline-block"
           >
-            Marketing Solution
+            Empire Building Solution
           </motion.div>
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
@@ -151,7 +151,7 @@ export default function MarketingSolution() {
             transition={{ delay: 0.1 }}
             className="text-5xl md:text-7xl font-bold tracking-tighter bg-gradient-to-br from-black via-[#001E80] to-[#0055FF] text-transparent bg-clip-text mt-6"
           >
-            Elevate Your Marketing Game
+            Say My Brand's Name!
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -159,7 +159,7 @@ export default function MarketingSolution() {
             transition={{ delay: 0.2 }}
             className="text-xl text-[#010D3E]/80 tracking-tight mt-6"
           >
-            Create, manage, and optimize your marketing campaigns with powerful automation
+            Become the one who knocks on your industry's door with powerful marketing automation
           </motion.p>
 
           {/* Decorative Images */}
@@ -192,7 +192,7 @@ export default function MarketingSolution() {
         {/* Campaign Types Section */}
         <section className="max-w-4xl mx-auto my-32">
           <h2 className="text-3xl font-bold tracking-tight text-center mb-12 bg-gradient-to-br from-black via-[#001E80] to-[#0055FF] text-transparent bg-clip-text">
-            Campaign Types
+            Distribution Strategies
           </h2>
           <div className="grid md:grid-cols-3 gap-6">
             {campaignTypes.map((campaign, index) => (
@@ -216,22 +216,22 @@ export default function MarketingSolution() {
           viewport={{ once: true }}
           className="max-w-4xl mx-auto mt-32"
         >
-          <div className="relative overflow-hidden rounded-3xl p-12 bg-gradient-to-br from-purple-500/20 to-pink-500/20 backdrop-blur-sm border border-white/20 shadow-xl">
-            <div className="absolute -right-8 -top-8 h-32 w-32 rounded-full bg-gradient-to-br from-purple-500/20 to-pink-500/20 blur-2xl" />
-            <div className="absolute -left-8 -bottom-8 h-32 w-32 rounded-full bg-gradient-to-br from-pink-500/20 to-purple-500/20 blur-2xl" />
+          <div className="relative overflow-hidden rounded-3xl p-12 bg-gradient-to-br from-yellow-500/20 to-amber-500/20 backdrop-blur-sm border border-white/20 shadow-xl">
+            <div className="absolute -right-8 -top-8 h-32 w-32 rounded-full bg-gradient-to-br from-yellow-500/20 to-amber-500/20 blur-2xl" />
+            <div className="absolute -left-8 -bottom-8 h-32 w-32 rounded-full bg-gradient-to-br from-amber-500/20 to-yellow-500/20 blur-2xl" />
             
             <div className="relative z-10 text-center">
               <h2 className="text-3xl font-bold tracking-tight bg-gradient-to-br from-black via-[#001E80] to-[#0055FF] text-transparent bg-clip-text">
-                Ready to supercharge your marketing efforts?
+                "I am not in marketing, I am the marketing"
               </h2>
               <p className="text-[#010D3E]/80 mt-4 text-lg max-w-2xl mx-auto">
-                Join thousands of marketers who have transformed their campaigns
+                Join thousands who have transformed their mild-mannered business into the danger of their industry
               </p>
               <a 
                 href="/auth"
                 className="btn btn-primary mt-8 inline-block"
               >
-                Get Started Now
+                Let's Cook... Projects!
               </a>
             </div>
           </div>

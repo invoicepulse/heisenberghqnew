@@ -7,59 +7,59 @@ import tubeImage from "@/assets/tube.png";
 
 const productFeatures = [
   {
-    title: "Roadmap Planning",
-    icon: "🗺️",
-    description: "Create and manage product roadmaps with collaborative planning tools.",
-    features: ["Timeline View", "Priority Management", "Resource Allocation"],
-    gradient: "from-purple-500/20 to-pink-500/20",
+    title: "The Formula Planner",
+    icon: "🧪",
+    description: "Create and perfect your product formulas with collaborative planning tools.",
+    features: ["Batch Timeline", "Purity Priorities", "Distribution Planning"],
+    gradient: "from-blue-500/20 to-indigo-500/20",
   },
   {
-    title: "User Research",
+    title: "Customer Surveillance",
     icon: "🔍",
-    description: "Gather and analyze user feedback to make data-driven product decisions.",
-    features: ["Survey Tools", "User Analytics", "Feedback Management"],
-    gradient: "from-pink-500/20 to-rose-500/20",
+    description: "Gather intelligence on what your clients need to cook up the perfect product.",
+    features: ["Satisfaction Testing", "User Behavior", "Feedback Lab"],
+    gradient: "from-indigo-500/20 to-violet-500/20",
   },
   {
-    title: "Sprint Management",
-    icon: "🏃",
-    description: "Plan and track sprints with agile project management tools.",
-    features: ["Sprint Planning", "Task Tracking", "Team Collaboration"],
-    gradient: "from-rose-500/20 to-orange-500/20",
+    title: "Cook Session Management",
+    icon: "⚗️",
+    description: "Plan and track your development sessions with precision chemistry.",
+    features: ["Batch Planning", "Task Distribution", "Team Coordination"],
+    gradient: "from-violet-500/20 to-purple-500/20",
   },
 ];
 
 const features = [
   {
-    title: "Feature Management",
-    description: "Track and prioritize feature requests and development.",
-    icon: "⚙️",
-    gradient: "from-purple-500/20 to-pink-500/20",
+    title: "Crystal Feature Management",
+    description: "Track and prioritize the purest features for your product.",
+    icon: "💎",
+    gradient: "from-blue-500/20 to-indigo-500/20",
   },
   {
-    title: "Release Planning",
-    description: "Plan and coordinate product releases effectively.",
-    icon: "🚀",
-    gradient: "from-pink-500/20 to-rose-500/20",
+    title: "Product Distribution",
+    description: "Plan and coordinate your product releases with territorial precision.",
+    icon: "🚚",
+    gradient: "from-indigo-500/20 to-violet-500/20",
   },
   {
-    title: "Team Collaboration",
-    description: "Foster seamless collaboration between product teams.",
-    icon: "👥",
-    gradient: "from-rose-500/20 to-orange-500/20",
+    title: "Cartel Collaboration",
+    description: "Foster seamless cooperation between all your associates.",
+    icon: "🤝",
+    gradient: "from-violet-500/20 to-purple-500/20",
   },
   {
-    title: "Progress Tracking",
-    description: "Monitor development progress and milestones.",
+    title: "Empire Building Tracker",
+    description: "Monitor your growth and track milestones in your rise to the top.",
     icon: "📊",
-    gradient: "from-orange-500/20 to-amber-500/20",
+    gradient: "from-purple-500/20 to-fuchsia-500/20",
   },
 ];
 
 const metrics = [
-  { value: "40%", label: "Faster Time to Market" },
-  { value: "2x", label: "Feature Adoption Rate" },
-  { value: "50%", label: "Reduced Development Cycles" },
+  { value: "99.1%", label: "Product Purity" },
+  { value: "2x", label: "Faster Territory Expansion" },
+  { value: "50%", label: "Less Competition Interference" },
 ];
 
 const FeatureCard = ({ feature, index }: { feature: any; index: number }) => (
@@ -121,14 +121,14 @@ export default function ProductSolution() {
   const y2 = useTransform(scrollYProgress, [0, 1], [100, -100]);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-[#FFFFFF] via-[#FFE8F7] to-[#FFD6EF] relative overflow-hidden">
+    <div className="min-h-screen bg-gradient-to-br from-[#FFFFFF] via-[#DEF2FF] to-[#87CEFA] relative overflow-hidden">
       <motion.div
         style={{ y: y1 }}
-        className="absolute top-40 -left-64 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl"
+        className="absolute top-40 -left-64 w-96 h-96 bg-blue-500/20 rounded-full blur-3xl"
       />
       <motion.div
         style={{ y: y2 }}
-        className="absolute bottom-40 -right-64 w-96 h-96 bg-pink-500/10 rounded-full blur-3xl"
+        className="absolute bottom-40 -right-64 w-96 h-96 bg-blue-300/20 rounded-full blur-3xl"
       />
 
       <div className="container py-24 relative">
@@ -138,7 +138,7 @@ export default function ProductSolution() {
             animate={{ opacity: 1, y: 0 }}
             className="tag inline-block"
           >
-            Product Solution
+            The Blue Product
           </motion.div>
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
@@ -146,7 +146,7 @@ export default function ProductSolution() {
             transition={{ delay: 0.1 }}
             className="text-5xl md:text-7xl font-bold tracking-tighter bg-gradient-to-br from-black via-[#001E80] to-[#0055FF] text-transparent bg-clip-text mt-6"
           >
-            Build Better Products
+            Cook Better Products
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -154,7 +154,7 @@ export default function ProductSolution() {
             transition={{ delay: 0.2 }}
             className="text-xl text-[#010D3E]/80 tracking-tight mt-6"
           >
-            Streamline your product development process with powerful collaboration tools
+            Apply the perfect formula to your product development process with scientific precision
           </motion.p>
 
           <motion.div style={{ y: y1 }} className="absolute -left-20 top-0 opacity-50">
@@ -184,7 +184,7 @@ export default function ProductSolution() {
 
         <section className="max-w-4xl mx-auto my-32">
           <h2 className="text-3xl font-bold tracking-tight text-center mb-12 bg-gradient-to-br from-black via-[#001E80] to-[#0055FF] text-transparent bg-clip-text">
-            Product Features
+            Lab Instruments
           </h2>
           <div className="grid md:grid-cols-3 gap-6">
             {productFeatures.map((feature, index) => (
@@ -195,7 +195,7 @@ export default function ProductSolution() {
 
         <section ref={sectionRef} className="max-w-4xl mx-auto my-32">
           <h2 className="text-3xl font-bold tracking-tight text-center mb-12 bg-gradient-to-br from-black via-[#001E80] to-[#0055FF] text-transparent bg-clip-text">
-            Key Features
+            Chemical Components
           </h2>
           <div className="grid md:grid-cols-2 gap-6">
             {features.map((feature, index) => (
@@ -212,22 +212,22 @@ export default function ProductSolution() {
           viewport={{ once: true }}
           className="max-w-4xl mx-auto mt-32"
         >
-          <div className="relative overflow-hidden rounded-3xl p-12 bg-gradient-to-br from-blue-500/20 to-cyan-500/20 backdrop-blur-sm border border-white/20 shadow-xl">
-            <div className="absolute -right-8 -top-8 h-32 w-32 rounded-full bg-gradient-to-br from-blue-500/20 to-cyan-500/20 blur-2xl" />
-            <div className="absolute -left-8 -bottom-8 h-32 w-32 rounded-full bg-gradient-to-br from-cyan-500/20 to-blue-500/20 blur-2xl" />
+          <div className="relative overflow-hidden rounded-3xl p-12 bg-gradient-to-br from-blue-500/20 to-blue-300/20 backdrop-blur-sm border border-white/20 shadow-xl">
+            <div className="absolute -right-8 -top-8 h-32 w-32 rounded-full bg-gradient-to-br from-blue-500/20 to-blue-300/20 blur-2xl" />
+            <div className="absolute -left-8 -bottom-8 h-32 w-32 rounded-full bg-gradient-to-br from-blue-300/20 to-blue-500/20 blur-2xl" />
             
             <div className="relative z-10 text-center">
               <h2 className="text-3xl font-bold tracking-tight bg-gradient-to-br from-black via-[#001E80] to-[#0055FF] text-transparent bg-clip-text">
-                Ready to transform your product development?
+                Ready to be the danger in product development?
               </h2>
               <p className="text-[#010D3E]/80 mt-4 text-lg max-w-2xl mx-auto">
-                Join thousands of teams who have already revolutionized their product development process
+                Join thousands of cooks who have mastered the art of product chemistry. Apply yourself!
               </p>
               <a 
                 href="/auth"
                 className="btn btn-primary mt-8 inline-block"
               >
-                Get Started Now
+                Let's Cook... Projects!
               </a>
             </div>
           </div>

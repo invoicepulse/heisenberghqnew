@@ -1,6 +1,5 @@
 "use client";
 import { motion, AnimatePresence } from "framer-motion";
-import Link from "next/link";
 import { useState } from "react";
 
 const solutions = [
@@ -63,14 +62,14 @@ export const SolutionsDropdown = () => {
             onMouseLeave={() => setIsOpen(false)}
           >
             {solutions.map((solution) => (
-              <Link
+              <a
                 key={solution.title}
                 href={solution.path}
                 className={`block p-4 hover:bg-gradient-to-r ${solution.color} transition-colors`}
               >
                 <h3 className="font-medium text-black">{solution.title}</h3>
                 <p className="text-sm text-black/60 mt-1">{solution.description}</p>
-              </Link>
+              </a>
             ))}
           </motion.div>
         )}

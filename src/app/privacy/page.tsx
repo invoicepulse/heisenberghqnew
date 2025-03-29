@@ -20,7 +20,7 @@ export default function PrivacyPolicyPage() {
             <section className="mb-12">
               <h2 className="text-2xl font-bold mb-4">1. Introduction</h2>
               <p className="text-gray-600">
-                Welcome to Senseflows (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;). We are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our platform at senseflows.fun.
+                Welcome to Heisenberg HQ (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;). We are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our platform at heisenberghq.com.
               </p>
             </section>
 
@@ -55,7 +55,7 @@ export default function PrivacyPolicyPage() {
             <section className="mb-12">
               <h2 className="text-2xl font-bold mb-4">6. Your Rights and Choices</h2>
               <p className="text-gray-600">
-                You have the right to access, correct, or delete your personal information. You can also opt-out of marketing communications and choose whether to accept cookies. To exercise these rights, please contact us at privacy@senseflows.fun.
+                You have the right to access, correct, or delete your personal information. You can also opt-out of marketing communications and choose whether to accept cookies. To exercise these rights, please contact us at privacy@heisenberghq.com.
               </p>
             </section>
 
@@ -69,7 +69,7 @@ export default function PrivacyPolicyPage() {
             <section className="mb-12">
               <h2 className="text-2xl font-bold mb-4">8. Children&apos;s Privacy</h2>
               <p className="text-gray-600">
-                Our services are not intended for individuals under the age of 13. We do not knowingly collect personal information from children. If you become aware that a child has provided us with personal information, please contact us at privacy@senseflows.fun.
+                Our services are not intended for individuals under the age of 13. We do not knowingly collect personal information from children. If you become aware that a child has provided us with personal information, please contact us at privacy@heisenberghq.com.
               </p>
             </section>
 
@@ -97,7 +97,7 @@ export default function PrivacyPolicyPage() {
             <section className="mb-12">
               <h2 className="text-2xl font-bold mb-4">12. Marketing Communications</h2>
               <p className="text-gray-600">
-                With your consent, we may send you marketing communications about our products and services. You can opt-out of these communications at any time by clicking the &quot;unsubscribe&quot; link in our emails or contacting us at support@senseflows.fun.
+                With your consent, we may send you marketing communications about our products and services. You can opt-out of these communications at any time by clicking the &quot;unsubscribe&quot; link in our emails or contacting us at support@heisenberghq.com.
               </p>
             </section>
 
@@ -119,9 +119,9 @@ export default function PrivacyPolicyPage() {
               <h2 className="text-2xl font-bold mb-4">15. Contact Information</h2>
               <p className="text-gray-600">
                 If you have any questions, concerns, or requests related to this Privacy Policy or our privacy practices, please contact us at:<br /><br />
-                Senseflows<br />
-                Email: privacy@senseflows.fun<br />
-                Website: https://senseflows.fun
+                Heisenberg HQ<br />
+                Email: privacy@heisenberghq.com<br />
+                Website: https://heisenberghq.com
               </p>
             </section>
           </div>

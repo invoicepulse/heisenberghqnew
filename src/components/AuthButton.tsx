@@ -10,7 +10,7 @@ export default function AuthButton({ children, className }: AuthButtonProps) {
   const router = useRouter();
 
   const handleAuth = () => {
-    window.location.href = "https://apps.senseflows.fun";
+    window.location.href = "https://apps.heisenberghq.com";
   };
 
   return (

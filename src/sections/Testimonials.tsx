@@ -15,58 +15,58 @@ import { motion } from "framer-motion";
 
 const testimonials = [
   {
-    text: "As a seasoned designer always on the lookout for innovative tools, Framer.com instantly grabbed my attention.",
+    text: "Yo, this platform is like, totally the bomb! The chemistry between features is pure science, bitch!",
     imageSrc: avatar1.src,
-    name: "Jamie Rivera",
-    username: "@jamietechguru00",
+    name: "Jesse P.",
+    username: "@sciencebitch",
   },
   {
-    text: "Our team's productivity has skyrocketed since we started using this tool. ",
+    text: "My productivity has reached 99.1% purity since I started using Heisenberg HQ. I am the one who knocks out tasks.",
     imageSrc: avatar2.src,
-    name: "Josh Smith",
-    username: "@jjsmith",
+    name: "Walter W.",
+    username: "@heisenberg",
   },
   {
-    text: "This app has completely transformed how I manage my projects and deadlines.",
+    text: "Better call Heisenberg HQ when you need to manage your business! It's all good, man!",
     imageSrc: avatar3.src,
-    name: "Morgan Lee",
-    username: "@morganleewhiz",
+    name: "Saul G.",
+    username: "@bettercallsaul",
   },
   {
-    text: "I was amazed at how quickly we were able to integrate this app into our workflow.",
+    text: "As someone who values precision, Heisenberg HQ gives me exactly what I need to run my business with clinical efficiency.",
     imageSrc: avatar4.src,
-    name: "Casey Jordan",
-    username: "@caseyj",
+    name: "Gustavo F.",
+    username: "@lospollos",
   },
   {
-    text: "Planning and executing events has never been easier. This app helps me keep track of all the moving parts, ensuring nothing slips through the cracks.",
+    text: "This platform helps me keep all my operations running smoothly. No half measures when it comes to project management.",
     imageSrc: avatar5.src,
-    name: "Taylor Kim",
-    username: "@taylorkimm",
+    name: "Mike E.",
+    username: "@nomorehalfmeasures",
   },
   {
-    text: "The customizability and integration capabilities of this app are top-notch.",
+    text: "Minerals! They're not rocks! And this app helps me catalog my entire collection with pristine organization.",
     imageSrc: avatar6.src,
-    name: "Riley Smith",
-    username: "@rileysmith1",
+    name: "Hank S.",
+    username: "@minerals_collector",
   },
   {
-    text: "Adopting this app for our team has streamlined our project management and improved communication across the board.",
+    text: "Heisenberg HQ has helped our DEA office streamline operations and catch... I mean, it's a great product for legitimate business.",
     imageSrc: avatar7.src,
-    name: "Jordan Patels",
-    username: "@jpatelsdesign",
+    name: "Steve G.",
+    username: "@definitely_not_dea",
   },
   {
-    text: "With this app, we can easily assign tasks, track progress, and manage documents all in one place.",
+    text: "With Heisenberg HQ, we can easily assign tasks, track our RV locations, and manage cook schedules all in one place.",
     imageSrc: avatar8.src,
-    name: "Sam Dawson",
-    username: "@dawsontechtips",
+    name: "Skinny P.",
+    username: "@churchyo",
   },
   {
-    text: "Its user-friendly interface and robust features support our diverse needs.",
+    text: "Even my lawyer's lawyer needs this app. The user interface is as clean as a vacuum repair shop.",
     imageSrc: avatar9.src,
-    name: "Casey Harper",
-    username: "@casey09",
+    name: "Ed G.",
+    username: "@disappearer",
   },
 ];
 
@@ -128,13 +128,13 @@ export const Testimonials = () => {
       <div className="container">
         <div className="section-heading">
           <div className="flex justify-center">
-            <div className="tag">Testimonials</div>
+            <div className="tag">Lab Reports</div>
           </div>
 
-          <h2 className="section-title mt-5">What our users say</h2>
+          <h2 className="section-title mt-5">What Our Partners Say</h2>
           <p className="section-des mt-5">
-            From intuitive design to powerful features, out app has become an essential tool for users around
-            the world.
+            From precise chemistry to powerful empire-building features, our formula has become essential for associates around
+            the world. No half measures.
           </p>
         </div>
 

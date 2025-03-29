@@ -7,59 +7,59 @@ import tubeImage from "@/assets/tube.png";
 
 const financeTools = [
   {
-    title: "Financial Planning",
+    title: "Empire Planning",
     icon: "📝",
-    description: "Create and manage budgets, forecasts, and financial plans.",
-    features: ["Budget Planning", "Cash Flow Forecasting", "Financial Goals"],
-    gradient: "from-purple-500/20 to-pink-500/20",
+    description: "Build your empire with proper budgets, forecasts, and financial planning - one batch at a time.",
+    features: ["Budget Cooking", "Cash Flow Chemistry", "Empire Goals"],
+    gradient: "from-green-500/20 to-emerald-500/20",
   },
   {
-    title: "Expense Management",
+    title: "Laundering Management",
     icon: "💳",
-    description: "Track and manage expenses with automated categorization.",
-    features: ["Receipt Scanning", "Expense Categories", "Approval Workflow"],
-    gradient: "from-pink-500/20 to-rose-500/20",
+    description: "Track and categorize your expenses with automated precision. Perfectly legal, of course.",
+    features: ["Receipt Documenting", "Expense Filtering", "Approval Chain"],
+    gradient: "from-emerald-500/20 to-teal-500/20",
   },
   {
-    title: "Financial Reporting",
+    title: "The Financials Lab",
     icon: "📊",
-    description: "Generate comprehensive financial reports and statements.",
-    features: ["Custom Reports", "Real-time Updates", "Compliance Tools"],
-    gradient: "from-rose-500/20 to-orange-500/20",
+    description: "Generate comprehensive financial reports that even Gus Fring would approve of.",
+    features: ["Crystal Clear Reports", "Real-time Formulations", "Legal Compliance"],
+    gradient: "from-teal-500/20 to-cyan-500/20",
   },
 ];
 
 const features = [
   {
-    title: "Automated Bookkeeping",
-    description: "Automate your accounting processes with AI.",
+    title: "AI Bookkeeping Partner",
+    description: "Like having your own Mike Ehrmantraut handling the books - efficient and discreet.",
     icon: "🤖",
-    gradient: "from-purple-500/20 to-pink-500/20",
+    gradient: "from-green-500/20 to-emerald-500/20",
   },
   {
-    title: "Tax Management",
-    description: "Simplify tax preparation and compliance.",
+    title: "Tax Manipulation",
+    description: "Perfectly legal tax preparation and compliance. Saul Goodman approved.",
     icon: "📑",
-    gradient: "from-pink-500/20 to-rose-500/20",
+    gradient: "from-emerald-500/20 to-teal-500/20",
   },
   {
-    title: "Invoice Processing",
-    description: "Streamline invoice creation and payment collection.",
+    title: "Invoice Chemistry",
+    description: "Create invoices as pure as the blue stuff, collect payments just as efficiently.",
     icon: "📄",
-    gradient: "from-rose-500/20 to-orange-500/20",
+    gradient: "from-teal-500/20 to-cyan-500/20",
   },
   {
-    title: "Financial Analytics",
-    description: "Get insights into your financial performance.",
+    title: "Financial Territory Analysis",
+    description: "Get insights into your financial performance and expand your territory.",
     icon: "📈",
-    gradient: "from-orange-500/20 to-amber-500/20",
+    gradient: "from-cyan-500/20 to-blue-500/20",
   },
 ];
 
 const metrics = [
-  { value: "70%", label: "Reduced Processing Costs" },
-  { value: "99.9%", label: "Accuracy in Reporting" },
-  { value: "45%", label: "Time Saved on Financial Tasks" },
+  { value: "99.1%", label: "Pure Financial Accuracy" },
+  { value: "87%", label: "Less Time Spent Counting Cash" },
+  { value: "45%", label: "Reduced 'Wastage' in Operations" },
 ];
 
 const FeatureCard = ({ feature, index }: { feature: any; index: number }) => (
@@ -121,14 +121,14 @@ export default function FinanceSolution() {
   const y2 = useTransform(scrollYProgress, [0, 1], [100, -100]);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-[#FFFFFF] via-[#FFE8F7] to-[#FFD6EF] relative overflow-hidden">
+    <div className="min-h-screen bg-gradient-to-br from-[#FFFFFF] via-[#D1FFD1] to-[#9DFFA9] relative overflow-hidden">
       <motion.div
         style={{ y: y1 }}
-        className="absolute top-40 -left-64 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl"
+        className="absolute top-40 -left-64 w-96 h-96 bg-green-500/20 rounded-full blur-3xl"
       />
       <motion.div
         style={{ y: y2 }}
-        className="absolute bottom-40 -right-64 w-96 h-96 bg-pink-500/10 rounded-full blur-3xl"
+        className="absolute bottom-40 -right-64 w-96 h-96 bg-green-300/20 rounded-full blur-3xl"
       />
 
       <div className="container py-24 relative">
@@ -138,7 +138,7 @@ export default function FinanceSolution() {
             animate={{ opacity: 1, y: 0 }}
             className="tag inline-block"
           >
-            Finance Solution
+            Money Lab
           </motion.div>
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
@@ -146,7 +146,7 @@ export default function FinanceSolution() {
             transition={{ delay: 0.1 }}
             className="text-5xl md:text-7xl font-bold tracking-tighter bg-gradient-to-br from-black via-[#001E80] to-[#0055FF] text-transparent bg-clip-text mt-6"
           >
-            Streamline Your Finances
+            The Money Chemistry
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -154,7 +154,7 @@ export default function FinanceSolution() {
             transition={{ delay: 0.2 }}
             className="text-xl text-[#010D3E]/80 tracking-tight mt-6"
           >
-            Automate financial processes and gain better control over your business finances
+            Cook up perfect financial processes and gain control over your empire's finances
           </motion.p>
 
           <motion.div style={{ y: y1 }} className="absolute -left-20 top-0 opacity-50">
@@ -184,7 +184,7 @@ export default function FinanceSolution() {
 
         <section className="max-w-4xl mx-auto my-32">
           <h2 className="text-3xl font-bold tracking-tight text-center mb-12 bg-gradient-to-br from-black via-[#001E80] to-[#0055FF] text-transparent bg-clip-text">
-            Finance Tools
+            Financial Lab Equipment
           </h2>
           <div className="grid md:grid-cols-3 gap-6">
             {financeTools.map((tool, index) => (
@@ -195,7 +195,7 @@ export default function FinanceSolution() {
 
         <section ref={sectionRef} className="max-w-4xl mx-auto my-32">
           <h2 className="text-3xl font-bold tracking-tight text-center mb-12 bg-gradient-to-br from-black via-[#001E80] to-[#0055FF] text-transparent bg-clip-text">
-            Key Features
+            Special Ingredients
           </h2>
           <div className="grid md:grid-cols-2 gap-6">
             {features.map((feature, index) => (
@@ -212,22 +212,22 @@ export default function FinanceSolution() {
           viewport={{ once: true }}
           className="max-w-4xl mx-auto mt-32"
         >
-          <div className="relative overflow-hidden rounded-3xl p-12 bg-gradient-to-br from-orange-500/20 to-red-500/20 backdrop-blur-sm border border-white/20 shadow-xl">
-            <div className="absolute -right-8 -top-8 h-32 w-32 rounded-full bg-gradient-to-br from-orange-500/20 to-red-500/20 blur-2xl" />
-            <div className="absolute -left-8 -bottom-8 h-32 w-32 rounded-full bg-gradient-to-br from-red-500/20 to-orange-500/20 blur-2xl" />
+          <div className="relative overflow-hidden rounded-3xl p-12 bg-gradient-to-br from-green-500/20 to-green-300/20 backdrop-blur-sm border border-white/20 shadow-xl">
+            <div className="absolute -right-8 -top-8 h-32 w-32 rounded-full bg-gradient-to-br from-green-500/20 to-green-300/20 blur-2xl" />
+            <div className="absolute -left-8 -bottom-8 h-32 w-32 rounded-full bg-gradient-to-br from-green-300/20 to-green-500/20 blur-2xl" />
             
             <div className="relative z-10 text-center">
               <h2 className="text-3xl font-bold tracking-tight bg-gradient-to-br from-black via-[#001E80] to-[#0055FF] text-transparent bg-clip-text">
-                Ready to revolutionize your financial operations?
+                Ready to break bad with your financial operations?
               </h2>
               <p className="text-[#010D3E]/80 mt-4 text-lg max-w-2xl mx-auto">
-                Join thousands of businesses who have transformed their financial processes
+                Join thousands who have transformed their financial processes. We are the ones who count.
               </p>
               <a 
                 href="/auth"
                 className="btn btn-primary mt-8 inline-block"
               >
-                Get Started Now
+                Let's Cook... Projects!
               </a>
             </div>
           </div>

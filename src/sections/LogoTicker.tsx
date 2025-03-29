@@ -28,19 +28,19 @@ export const LogoTicker = () => {
               repeatType: "loop",
             }}
           >
-            <Image src={acmeLogo} alt="Acme logo" className="logo-ticker-image" />
-            <Image src={quantamLogo} alt="quantam logo" className="logo-ticker-image" />
-            <Image src={echoLogo} alt="Echo logo" className="logo-ticker-image" />
-            <Image src={celestialLogo} alt="celestial logo" className="logo-ticker-image" />
-            <Image src={pulseLogo} alt="Pulse logo" className="logo-ticker-image" />
-            <Image src={apexLogo} alt="Apex logo" className="logo-ticker-image" />
+            <Image src={acmeLogo} alt="Los Pollos Hermanos" className="logo-ticker-image" />
+            <Image src={quantamLogo} alt="Vamonos Pest" className="logo-ticker-image" />
+            <Image src={echoLogo} alt="Gray Matter Technologies" className="logo-ticker-image" />
+            <Image src={celestialLogo} alt="Madrigal Electromotive" className="logo-ticker-image" />
+            <Image src={pulseLogo} alt="A1A Car Wash" className="logo-ticker-image" />
+            <Image src={apexLogo} alt="Saul Goodman & Associates" className="logo-ticker-image" />
 
-            <Image src={acmeLogo} alt="Acme logo" className="logo-ticker-image" />
-            <Image src={quantamLogo} alt="quantam logo" className="logo-ticker-image" />
-            <Image src={echoLogo} alt="Echo logo" className="logo-ticker-image" />
-            <Image src={celestialLogo} alt="celestial logo" className="logo-ticker-image" />
-            <Image src={pulseLogo} alt="Pulse logo" className="logo-ticker-image" />
-            <Image src={apexLogo} alt="Apex logo" className="logo-ticker-image" />
+            <Image src={acmeLogo} alt="Los Pollos Hermanos" className="logo-ticker-image" />
+            <Image src={quantamLogo} alt="Vamonos Pest" className="logo-ticker-image" />
+            <Image src={echoLogo} alt="Gray Matter Technologies" className="logo-ticker-image" />
+            <Image src={celestialLogo} alt="Madrigal Electromotive" className="logo-ticker-image" />
+            <Image src={pulseLogo} alt="A1A Car Wash" className="logo-ticker-image" />
+            <Image src={apexLogo} alt="Saul Goodman & Associates" className="logo-ticker-image" />
           </motion.div>
         </div>
       </div>

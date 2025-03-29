@@ -7,59 +7,59 @@ import tubeImage from "@/assets/tube.png";
 
 const analyticTools = [
   {
-    title: "Data Visualization",
+    title: "The Blue Crystal Dashboard",
     icon: "📊",
-    description: "Create interactive dashboards and visual reports for better insights.",
-    features: ["Custom Charts", "Real-time Updates", "Interactive Filters"],
+    description: "Cook up interactive dashboards and visual reports with our signature blue crystal clarity.",
+    features: ["High-Purity Charts", "Real-time Surveillance", "Formula Filters"],
     gradient: "from-purple-500/20 to-pink-500/20",
   },
   {
-    title: "Predictive Analytics",
+    title: "Heisenberg Prediction Engine",
     icon: "🔮",
-    description: "Leverage AI to forecast trends and make data-driven decisions.",
-    features: ["Trend Analysis", "Forecasting", "Pattern Recognition"],
+    description: "Apply scientific certainty to forecast trends and make calculated decisions with precision.",
+    features: ["Territory Analysis", "Future Forecasting", "Competition Tracking"],
     gradient: "from-pink-500/20 to-rose-500/20",
   },
   {
-    title: "Performance Tracking",
+    title: "Empire Business Tracking",
     icon: "📈",
-    description: "Monitor KPIs and track business performance metrics in real-time.",
-    features: ["KPI Dashboard", "Goal Tracking", "Performance Alerts"],
+    description: "Monitor your empire's vital signs and track business performance with cartel-grade accuracy.",
+    features: ["Empire Dashboard", "Goal Enforcement", "Performance Surveillance"],
     gradient: "from-rose-500/20 to-orange-500/20",
   },
 ];
 
 const features = [
   {
-    title: "Custom Reports",
-    description: "Create tailored reports with drag-and-drop simplicity.",
+    title: "Lab-Grade Reports",
+    description: "Synthesize tailored reports with our chemistry-inspired drag-and-drop system.",
     icon: "📑",
     gradient: "from-purple-500/20 to-pink-500/20",
   },
   {
-    title: "Data Integration",
-    description: "Connect and analyze data from multiple sources.",
+    title: "Cross-Contamination Prevention",
+    description: "Connect and analyze data from multiple sources with perfect isolation.",
     icon: "🔄",
     gradient: "from-pink-500/20 to-rose-500/20",
   },
   {
-    title: "Automated Analysis",
-    description: "Let AI discover insights from your data automatically.",
+    title: "Jesse's Automation Bot",
+    description: "Yo, science! Let AI discover insights from your data automatically, bitch!",
     icon: "🤖",
     gradient: "from-rose-500/20 to-orange-500/20",
   },
   {
-    title: "Data Security",
-    description: "Enterprise-grade security for your sensitive data.",
+    title: "Hermetic Data Security",
+    description: "Vacuum-sealed security for your sensitive data. No DEA will ever find it.",
     icon: "🔒",
     gradient: "from-orange-500/20 to-amber-500/20",
   },
 ];
 
 const metrics = [
-  { value: "60%", label: "Faster Data Analysis" },
-  { value: "3x", label: "Better Decision Making" },
-  { value: "80%", label: "Automated Insights" },
+  { value: "99.1%", label: "Pure Data Analysis" },
+  { value: "3x", label: "Better Empire Building" },
+  { value: "80%", label: "Less Time Spent Looking Over Your Shoulder" },
 ];
 
 const FeatureCard = ({ feature, index }: { feature: any; index: number }) => (
@@ -121,14 +121,14 @@ export default function AnalyticsSolution() {
   const y2 = useTransform(scrollYProgress, [0, 1], [100, -100]);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-[#FFFFFF] via-[#FFE8F7] to-[#FFD6EF] relative overflow-hidden">
+    <div className="min-h-screen bg-gradient-to-br from-[#FFFFFF] via-[#87CEFA] to-[#00BFFF] relative overflow-hidden">
       <motion.div
         style={{ y: y1 }}
-        className="absolute top-40 -left-64 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl"
+        className="absolute top-40 -left-64 w-96 h-96 bg-blue-500/30 rounded-full blur-3xl"
       />
       <motion.div
         style={{ y: y2 }}
-        className="absolute bottom-40 -right-64 w-96 h-96 bg-pink-500/10 rounded-full blur-3xl"
+        className="absolute bottom-40 -right-64 w-96 h-96 bg-blue-300/30 rounded-full blur-3xl"
       />
 
       <div className="container py-24 relative">
@@ -138,7 +138,7 @@ export default function AnalyticsSolution() {
             animate={{ opacity: 1, y: 0 }}
             className="tag inline-block"
           >
-            Analytics Solution
+            Chemistry Analytics
           </motion.div>
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
@@ -146,7 +146,7 @@ export default function AnalyticsSolution() {
             transition={{ delay: 0.1 }}
             className="text-5xl md:text-7xl font-bold tracking-tighter bg-gradient-to-br from-black via-[#001E80] to-[#0055FF] text-transparent bg-clip-text mt-6"
           >
-            Data-Driven Decisions
+            The Science of Business
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -154,7 +154,7 @@ export default function AnalyticsSolution() {
             transition={{ delay: 0.2 }}
             className="text-xl text-[#010D3E]/80 tracking-tight mt-6"
           >
-            Transform your data into actionable insights with powerful analytics tools
+            Apply the precise formula to transform your raw data into 99.1% pure actionable insights
           </motion.p>
 
           <motion.div style={{ y: y1 }} className="absolute -left-20 top-0 opacity-50">
@@ -184,7 +184,7 @@ export default function AnalyticsSolution() {
 
         <section className="max-w-4xl mx-auto my-32">
           <h2 className="text-3xl font-bold tracking-tight text-center mb-12 bg-gradient-to-br from-black via-[#001E80] to-[#0055FF] text-transparent bg-clip-text">
-            Analytics Tools
+            Lab Equipment
           </h2>
           <div className="grid md:grid-cols-3 gap-6">
             {analyticTools.map((tool, index) => (
@@ -195,7 +195,7 @@ export default function AnalyticsSolution() {
 
         <section ref={sectionRef} className="max-w-4xl mx-auto my-32">
           <h2 className="text-3xl font-bold tracking-tight text-center mb-12 bg-gradient-to-br from-black via-[#001E80] to-[#0055FF] text-transparent bg-clip-text">
-            Key Features
+            Key Ingredients
           </h2>
           <div className="grid md:grid-cols-2 gap-6">
             {features.map((feature, index) => (
@@ -212,22 +212,22 @@ export default function AnalyticsSolution() {
           viewport={{ once: true }}
           className="max-w-4xl mx-auto mt-32"
         >
-          <div className="relative overflow-hidden rounded-3xl p-12 bg-gradient-to-br from-emerald-500/20 to-blue-500/20 backdrop-blur-sm border border-white/20 shadow-xl">
-            <div className="absolute -right-8 -top-8 h-32 w-32 rounded-full bg-gradient-to-br from-emerald-500/20 to-blue-500/20 blur-2xl" />
-            <div className="absolute -left-8 -bottom-8 h-32 w-32 rounded-full bg-gradient-to-br from-blue-500/20 to-emerald-500/20 blur-2xl" />
+          <div className="relative overflow-hidden rounded-3xl p-12 bg-gradient-to-br from-blue-500/30 to-blue-300/30 backdrop-blur-sm border border-white/20 shadow-xl">
+            <div className="absolute -right-8 -top-8 h-32 w-32 rounded-full bg-gradient-to-br from-blue-500/30 to-blue-300/30 blur-2xl" />
+            <div className="absolute -left-8 -bottom-8 h-32 w-32 rounded-full bg-gradient-to-br from-blue-300/30 to-blue-500/30 blur-2xl" />
             
             <div className="relative z-10 text-center">
               <h2 className="text-3xl font-bold tracking-tight bg-gradient-to-br from-black via-[#001E80] to-[#0055FF] text-transparent bg-clip-text">
-                Ready to unlock the power of your data?
+                Ready to apply the formula to your data?
               </h2>
               <p className="text-[#010D3E]/80 mt-4 text-lg max-w-2xl mx-auto">
-                Join thousands of teams who have transformed their analytics capabilities
+                Join the scientific revolution of business analytics. No half measures.
               </p>
               <a 
                 href="/auth"
                 className="btn btn-primary mt-8 inline-block"
               >
-                Get Started Now
+                Let's Cook... Projects!
               </a>
             </div>
           </div>

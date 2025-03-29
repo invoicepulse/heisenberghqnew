@@ -4,8 +4,8 @@
   "installCommand": "npm install",
   "framework": "nextjs",
   "env": {
-    "KINDE_SITE_URL": "https://senseflows.fun",
-    "KINDE_POST_LOGIN_REDIRECT_URL": "https://senseflows.fun/dashboard",
-    "KINDE_POST_LOGOUT_REDIRECT_URL": "https://senseflows.fun"
+    "KINDE_SITE_URL": "https://heisenberghq.com",
+    "KINDE_POST_LOGIN_REDIRECT_URL": "https://heisenberghq.com/dashboard",
+    "KINDE_POST_LOGOUT_REDIRECT_URL": "https://heisenberghq.com"
   }
 }

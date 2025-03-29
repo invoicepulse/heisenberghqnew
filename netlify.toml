@@ -3,7 +3,7 @@
   publish = ".next"
 
 [build.environment]
-  NEXT_PUBLIC_SITE_URL = "https://senseflows.fun"
+  NEXT_PUBLIC_SITE_URL = "https://heisenberghq.com"
   NEXT_TELEMETRY_DISABLED = "1"
 
 [[plugins]]

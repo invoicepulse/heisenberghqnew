@@ -8,13 +8,13 @@ import { Footer } from "@/sections/Footer";
 const dmSans = DM_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Senseflows",
+  title: "Heisenberg HQ",
   description: "SaaS Landing Page with React, Next.js, TailwindCSS & Framer Motion",
   icons: {
     icon: [
       {
-        url: 'https://res.cloudinary.com/dvgtcyyzh/image/upload/v1733690720/logosss_gb1chv.webp',
-        type: 'image/webp',
+        url: 'https://res.cloudinary.com/dvgtcyyzh/image/upload/v1743221608/logosaas_jgshhv.png',
+        type: 'image/png',
       },
     ],
   },

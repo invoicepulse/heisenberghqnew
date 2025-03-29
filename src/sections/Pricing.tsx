@@ -6,52 +6,52 @@ import { motion } from "framer-motion";
 
 const pricingTiers = [
   {
-    title: "Free",
+    title: "Jesse's Starter",
     monthlyPrice: 0,
-    buttonText: "Get started for free",
+    buttonText: "Yeah, Science!",
     popular: false,
     inverse: false,
     features: [
-      "Up to 5 project members",
-      "Unlimited tasks and projects",
-      "2GB storage",
-      "Integrations",
-      "Basic support",
+      "Up to 5 lab assistants",
+      "Unlimited tasks and formulas",
+      "2GB crystal storage",
+      "Basic territory protection",
+      "Street-level support",
     ],
   },
   {
-    title: "Pro",
-    monthlyPrice: 9,
-    buttonText: "Sign up now",
+    title: "Heisenberg Special",
+    monthlyPrice: 9.99,
+    buttonText: "Let's Cook!",
     popular: true,
     inverse: true,
     features: [
-      "Up to 5 project members",
-      "Unlimited tasks and projects",
-      "50GB storage",
-      "Integrations",
-      "Priority support",
-      "Advanced support",
-      "Export support",
+      "Up to 10 lab assistants",
+      "Unlimited tasks and formulas",
+      "50GB crystal storage",
+      "Advanced territory protection",
+      "No half-measures support",
+      "99.1% Purity guarantee",
+      "Export capabilities",
     ],
   },
   {
-    title: "Business",
-    monthlyPrice: 19,
-    buttonText: "Sign up now",
+    title: "Gus Fring Enterprise",
+    monthlyPrice: 19.99,
+    buttonText: "Build Your Empire",
     popular: false,
     inverse: false,
     features: [
-      "Up to 20 project members",
-      "Unlimited tasks and projects",
-      "200GB storage",
-      "Integrations",
-      "Dedicated account manager",
-      "Custom fields",
-      "Advanced analytics",
+      "Up to 20 associates",
+      "Unlimited tasks and formulas",
+      "200GB crystal storage",
+      "Advanced territory protection",
+      "Dedicated Los Pollos manager",
+      "Custom distribution fields",
+      "Advanced territory analytics",
       "Export capabilities",
-      "API access",
-      "Advanced security features",
+      "Full API access",
+      "DEA-proof security features",
     ],
   },
 ];
@@ -61,9 +61,9 @@ export const Pricing = () => {
     <section className="py-24 bg-white">
       <div className="container">
         <div className="section-heading">
-          <h2 className="section-title">Pricing</h2>
+          <h2 className="section-title">Empire Pricing</h2>
           <p className="section-des mt-5">
-            Free forever. Upgrade for unlimited tasks, better security, and exclusive features.
+            Jesse-level access forever free. Upgrade for the full Heisenberg experience with unlimited formulas, better security, and exclusive features.
           </p>
         </div>
 
@@ -94,7 +94,7 @@ export const Pricing = () => {
                       }}
                       className="bg-[linear-gradient(to_right,#DD7DDF,#E1CD86,#BBCB92,#71C2EF,#3BFFFF,#DD7DDF,#E1CD86,#BBCB92,#71C2EF,#3BFFFF)] [background-size:200%] text-transparent bg-clip-text font-medium"
                     >
-                      Popular
+                      99.1% Pure
                     </motion.span>
                   </div>
                 )}
